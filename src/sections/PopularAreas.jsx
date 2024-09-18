@@ -28,10 +28,35 @@ const PopularAreas = () => {
     <div className={`${darkMode ? 'dark bg-black' : 'light bg-transparent'}`}>
       <section className={`${darkMode ? 'dark bg-gray-800' : 'light bg-red-100'} lg:w-[90%] w-full h-fit m-auto bg-cover bg-center rounded-xl flex justify-center flex-col items-center lg:px-20 px-6 py-20 gap-20`}>
         <div id='top' className='w-full grid lg:grid-cols-3 grid-cols-1 justify-center items-center gap-8'> 
+          <div>
+            <h1 data-aos="zoom-in" className='text-red-500 dark:text-white '>POPULAR AREA</h1>
+            <h1 data-aos="zoom-in" className='text-black text-[40px] font-semibold leading-10 mt-4 dark:text-white '>Explore Most <br /> popular areas</h1>
+          </div>
 
+          <div className='grid lg:grid-cols-3 col-span-2 grid-cols-1 justify-center items-center gap-6'>
+            <div data-aos="flip-right" data-aos-delay="400" style={{ backgroundImage: `url(${area1})`}} className='h-[400px] bg-cover bg-center rounded-xl '> 
+            </div>
+            <div data-aos="flip-right" data-aos-delay="400" style={{ backgroundImage: `url(${area2})`}} className='h-[400px] bg-cover bg-center rounded-xl '> 
+            </div>
+            <div data-aos="flip-right" data-aos-delay="400" style={{ backgroundImage: `url(${area3})`}} className='h-[400px] bg-cover bg-center rounded-xl '> 
+            </div>
+          </div>
         </div>
-        <div>
-          <img data-aos="fade-in" src={area1} alt="area1" className='rounded-xl' />
+
+        <div id='bottom' className='w-full grid lg:grid-cols-3 grid-cols-1 lg:justify-center justify-start items-center gap-6'>
+          <div data-aos="fade-right" data-aos-delay="200" className='flex justify-center lg:items-center gap-8 w-full'>
+            <h1 className='text-black text-7xl font-semibold dark:text-white'>5k</h1>
+            <h1>ACTIVE <br /> LISTINGS </h1>
+          </div>
+          <div data-aos="fade-right" data-aos-delay="200" className='flex justify-center lg:items-center gap-8 w-full'>
+            <h1 className='text-black text-7xl font-semibold dark:text-white'>5k</h1>
+            <h1>ACTIVE <br /> LISTINGS </h1>
+          </div>
+          <div data-aos="fade-right" data-aos-delay="200" className='flex justify-center lg:items-center gap-8 w-full'>
+            <h1 className='text-black text-7xl font-semibold dark:text-white'>5k</h1>
+            <h1>ACTIVE <br /> LISTINGS </h1>
+          </div>
+            
         </div>
 
 
