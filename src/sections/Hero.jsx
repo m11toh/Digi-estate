@@ -42,7 +42,7 @@ const Hero = () => {
             <div data-aos= "zoom-in" id= 'form' className={`${darkMode ? 'dark bg-gray-800'
                  : 'light bg-white'} lg:w-[70%] w-full m-auto grid lg:grid-cols-4 grid-cols-1
                  justify-center items-center gap-6 p-8 rounded-xl -mt-14`}>
-                    <div classname= 'w-full'>
+                    <div className= 'w-full'>
                         <h1 className='text-black font-semibold dark:text-white'>LOCATION</h1>
                         <input type='text' placeholder='Enter address, state, city or pincode'
                         className='bg-white p-2 w-full mt-2 border-b-[1px] border-[1px] border-[#c9c7c1]'/>
