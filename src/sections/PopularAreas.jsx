@@ -46,15 +46,15 @@ const PopularAreas = () => {
         <div id='bottom' className='w-full grid lg:grid-cols-3 grid-cols-1 lg:justify-center justify-start items-center gap-6'>
           <div data-aos="fade-right" data-aos-delay="200" className='flex justify-center lg:items-center gap-8 w-full'>
             <h1 className='text-black text-7xl font-semibold dark:text-white'>5k</h1>
-            <h1>ACTIVE <br /> LISTINGS </h1>
+            <h1 className='dark:text-white'>ACTIVE <br /> LISTINGS </h1>
           </div>
           <div data-aos="fade-right" data-aos-delay="200" className='flex justify-center lg:items-center gap-8 w-full'>
             <h1 className='text-black text-7xl font-semibold dark:text-white'>5k</h1>
-            <h1>ACTIVE <br /> LISTINGS </h1>
+            <h1 className='dark:text-white'>ACTIVE <br /> LISTINGS </h1>
           </div>
           <div data-aos="fade-right" data-aos-delay="200" className='flex justify-center lg:items-center gap-8 w-full'>
             <h1 className='text-black text-7xl font-semibold dark:text-white'>5k</h1>
-            <h1>ACTIVE <br /> LISTINGS </h1>
+            <h1 className='dark:text-white'>ACTIVE <br /> LISTINGS </h1>
           </div>
             
         </div>
